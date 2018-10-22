@@ -1,0 +1,94 @@
+/* Variables and files*/
+:root {
+    --bg-color: #6b385d;
+}
+
+@font-face {
+    font-family: rosewood;
+    src: url("../fonts/curlyshirley/Curly Shirley.ttf");
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*Both*/
+
+    /*General*/
+    body {
+        background-color: var(--bg-color);
+        background-image: url("../images/cardboard.png");
+    }
+
+    #container{
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    /*Header*/
+
+    h1{
+        font-family: rosewood;
+        text-align: center;
+        background-color: lavenderblush;
+        padding: 2%;
+
+    }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*Mobile*/
+
+@media screen and (min-width:500px) {
+
+    /*header*/
+
+
+
+        /*navbar*/
+
+        .nav_items{
+            all: unset;
+            display: block;
+            margin: 0 auto;
+            list-style: none;
+        }
+
+        .nav_items li {
+            text-align: center;
+        }
+        .nav_items li a{
+            -webkit-appearance: button;
+            -moz-appearance: button;
+
+            text-decoration: none;
+            color: initial;
+
+            padding: 0.5%;
+            margin: 1%;
+        }
+
+
+    /*Article*/
+    .header_img{
+        all: unset;
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+    }
+
+
+
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*Desktop*/
+
+@media screen and (min-width:992px){
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */

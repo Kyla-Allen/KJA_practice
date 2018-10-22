@@ -1,0 +1,62 @@
+/*Behind the Scenes*/
+@font-face {
+    font-family: curley_shirley;
+    src: url("../fonts/curlyshirley/Curly Shirley.ttf");
+}
+
+:root{
+    --accent1: rgba(191, 215, 255, 50%);
+}
+/*~~~~~~~~Behind the Scenes~~~~~~~~~~~*/
+
+body{
+    background-color: #83c7be;
+    background-image: url("../images/gplay.png");
+}
+
+.bg1 {
+    background-image: url("../images/waterfall.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 4px solid black;
+}
+
+h1 {
+    margin: 3%;
+    font-family: curley_shirley;
+    text-align: center;
+    color: deepskyblue;
+    font-size: 50px;
+}
+
+.bg-accent{
+    background-color: var(--accent1);
+}
+
+.foreground-image{
+    float: bottom;
+    width: 100%;
+    opacity: 0.75;
+}
+
+
+
+/* For the Navigation */
+.navigation {
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+    background-color: var(--accent1);
+    position: fixed;
+}
+
+.navigation a{
+    color: black;
+}
+
+.navigation a:hover {
+    color: greenyellow;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~*/
+

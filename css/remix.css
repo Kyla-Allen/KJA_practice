@@ -1,0 +1,101 @@
+/*behind the scenes*/
+/*~~~~~~~~~~~~~~~~~~~~*/
+@font-face{
+    font-family: remix;
+    src: url("../fonts/Plane Crash.ttf");
+}
+
+:root {
+    --bg-color: #509969;
+}
+/*~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*overall*/
+/*~~~~~~~~~~~~~~~~~~~~~~*/
+body {
+    background-color: var(--bg-color);
+    background-image: url("../images/connected.png");
+}
+
+h1{
+    font-family: remix;
+    background-color: gray;
+    border: 2px solid black;
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.nav_items {
+    list-style: none;
+}
+
+.nav_items a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.musical_soup{
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*smaller screens*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media screen and (max-width:768px) {
+
+    /*for the nav*/
+    .nav_items{
+        display: block;
+        text-align: center;
+    }
+
+    .nav_items li {
+        background-color: lightgreen;
+        border: 1px solid black;
+        margin: .5%;
+    }
+
+    a img {
+        display: none;
+    }
+
+
+
+
+
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
+/*larger screens*/
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media screen and (min-width: 768px) {
+
+    .nav_items li {
+        all: unset;
+        margin: .5%;
+        padding: 2px;
+    }
+
+    .nav_items.part_2 {
+        text-align: right;
+    }
+
+    a img {
+        width:4%;
+        transition-duration: 0.2s;
+    }
+
+     {
+        color:white;
+        width: 6%;
+    }
+
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
