@@ -4,18 +4,29 @@
     <meta charset="UTF-8">
     <title>StoryBook</title>
     <link rel="stylesheet" href="css/storybook.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        a:hover{
+            color: #6b385d;
+        }
+    </style>
+
 </head>
 <body>
 
+<div class="container">
+
 <!--Header--->
-<div id="header">
-    <h1>Storybook</h1>
+<div id="header" class="row">
+    <h1 class="center-align">Storybook</h1>
 </div>
 
 
 <!--Sidebar-->
-<div id="sidebar">
-    <ul id="navbar-items">
+<div id="sidebar" class="row">
+
+    <ul id="navbarItems">
+
     </ul>
     <img src="" id="user-icon">
 
@@ -25,19 +36,20 @@
 
         </ul>
     </footer>
-</div>
 
 
 <!--Main Content-->
 <article>
     <h2 id="content-header"></h2>
     <div id="story">
-        <p></p>
+        <p class="story-content"></p>
     </div>
 </article>
+</div>
 
 <!---JAVASCRIPT-->
 <script src="JS/jquery-2.x-git.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 <script src="JS/storybook.js"></script>
 </body>
 </html>
